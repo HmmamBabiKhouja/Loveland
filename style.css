@@ -1,0 +1,43 @@
+
+body{
+  background: url(plush-design.jpg) no-repeat center center fixed;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-family: 'Amiri', serif;
+}
+
+
+
+
+.content{
+  text-align: center;
+  font-family: 'Changa', sans-serif;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+.myContent{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.shape{
+  width: 300px;
+  height: 300px;
+  background:#f21f27;
+  position: relative;
+  margin:10% auto;
+  border-radius:50%;
+}
+
+
+.shapeContent{
+  position: absolute;
+  width: inherit;
+  height: auto;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #ffffff;
+  font-family: Arial;
+  text-shadow: 4px 4px 4px #333333;
+}
