@@ -1,43 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-body{
+body {
   background: url(plush-design.jpg) no-repeat center center fixed;
+  background-attachment: fixed;
   background-size: cover;
-  background-color: rgba(255, 255, 255, 0.1);
-  font-family: 'Amiri', serif;
+  font-family: "Changa", serif, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #f7f7f7;
 }
 
-
-
-
-.content{
-  text-align: center;
-  font-family: 'Changa', sans-serif;
-  text-shadow: 4px 4px 4px #aaa;
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.myContent{
-  margin-left: auto;
-  margin-right: auto;
+.content {
+  width: 90%;
+  height: 85vh;
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid #292929;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.shape{
-  width: 300px;
-  height: 300px;
-  background:#f21f27;
-  position: relative;
-  margin:10% auto;
-  border-radius:50%;
+.description {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+.description h1 {
+  margin-top: 30px;
+}
 
-.shapeContent{
+.description p {
+  margin: 20px 10px 20px 0;
+  font-size: 90%;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-text-input {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-input {
+  padding: 7px;
+  border: 1px solid #d6d9dc;
+  outline: none;
+  width: 49%;
+}
+
+.form-btn,
+.result {
+  margin-top: 20px;
+}
+
+.btn-input {
+  cursor: pointer;
+  background: transparent;
+  /* box-shadow: 0px 0px 0px transparent;
+  border: 0px solid transparent;
+  text-shadow: 0px 0px 0px transparent; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+}
+
+.btn-input span{
   position: absolute;
-  width: inherit;
-  height: auto;
-  text-align: center;
-  top: 50%;
-  transform: translateY(-50%);
+  z-index: 1;
   color: #ffffff;
-  font-family: Arial;
-  text-shadow: 4px 4px 4px #333333;
+  font-size: 140%;
+  font-family: "Changa";
 }
+
+.icon {
+  font-size: 600%;
+  color: #ff9b9b;
+}
+
+.result h3 {
+  font-weight: 900;
+  font-size: 130%;
+  color: #d6d9dc;
+
+}
+
+/* check the riple effect on the ionicon */
