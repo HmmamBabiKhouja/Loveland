@@ -5,14 +5,17 @@ let measure = (one, two) => {
   
   let num = 0;
   if (
-    ((one === "عبد الرحمن" && two === "نور") ||
-      (one === "نور" && two === "عبد الرحمن")) ||
+    (one === "عبد الرحمن" && two === "نور") ||
+    (one === "نور" && two === "عبد الرحمن") ||
     ((one === "محمود" && two === "رنيم") ||
       (one === "رنيم" && two === "محمود")) ||
     ((one === "fares" && two === "monika") ||
       (one === "monika" && two === "fares")) ||
     ((one === "قمر" && two === "محمد") ||
       (one === "محمد" && two === "قمر"))
+    ((one === "هبة" && two === "اسامة") ||
+      (one === "اسامة" && two === "هبة")
+    )
   ) {
     num = 100;
   } else {
@@ -31,7 +34,7 @@ let measurmentShow = (measureNum) => {
   setTimeout(() => {
     clearInterval(interval);
     document.querySelector("#meter").innerHTML = measureNum + "%";
-  }, 1000);
+  }, 1500);
 };
 
 let operate = () => {
