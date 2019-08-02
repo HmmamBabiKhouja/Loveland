@@ -37,8 +37,8 @@ let operate = () => {
   //will be sure the none of the inputs are empty
   let one = document.querySelector("#one").value;
   let two = document.querySelector("#two").value;
-  one.toLowerCase().trim();
-  two.toLowerCase().trim();
+  one.trim().toLowerCase();
+  two.trim().toLowerCase();
   alert(one);
   alert(two);
   if (one === "" || two === "") {
