@@ -11,6 +11,7 @@ body {
   background-size: cover;
   font-size: 16px;
   color: #f7f7f7;
+  height: 100vh; 
 }
 
 .container {
