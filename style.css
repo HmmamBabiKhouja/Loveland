@@ -24,6 +24,7 @@ body {
 
 .content {
   width: 90%;
+  height: 90vh;
   background: rgba(0, 0, 0, 0.6);
   box-shadow: #a1a1a1;
   border: 1px solid #292929;
