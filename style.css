@@ -7,10 +7,11 @@
 
 body {
   background: url(plush-design-compressor.jpg) no-repeat center center fixed;
-  background-attachment: fixed;
+  overflow: hidden;
   background-size: cover;
   font-size: 16px;
   color: #f7f7f7;
+  sc
 }
 
 .container {
@@ -24,8 +25,8 @@ body {
 
 .content {
   width: 90%;
-  height: 100vh;
   background: rgba(0, 0, 0, 0.6);
+  box-shadow: #a1a1a1;
   border: 1px solid #292929;
   border-radius: 4px;
   display: flex;
