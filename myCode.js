@@ -39,6 +39,8 @@ let operate = () => {
   let two = document.querySelector("#two").value;
   one.toLowerCase().trim();
   two.toLowerCase().trim();
+  alert(one);
+  alert(two);
   if (one === "" || two === "") {
     alert("املا البيانات في خانات الكتابة! من قضلك");
     return;
