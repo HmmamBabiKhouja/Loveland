@@ -1,6 +1,8 @@
 let measure = (one, two) => {
   // it's a made up result for my friends
   // otherwise it'll return a random result 
+
+  
   let num = 0;
   if (
     ((one === "عبد الرحمن" && two === "نور") ||
@@ -19,7 +21,6 @@ let measure = (one, two) => {
   return num;
 };
 
-
 let measurmentShow = (measureNum) => {
   //will show a number on the result field each 0.05 of a second as it's measureing before the measureNum is passed into the result field 
   let interval = setInterval(function() {
@@ -35,11 +36,8 @@ let measurmentShow = (measureNum) => {
 
 let operate = () => {
   //will be sure the none of the inputs are empty
-  let one = document.querySelector("#one").value.toLowerCase();
-  let two = document.querySelector("#two").value.toLowerCase();
-
-  alert(one);
-  alert(two);
+  let one = document.querySelector("#one").value;
+  let two = document.querySelector("#two").value;
 
   if (one === "" || two === "") {
     alert("املا البيانات في خانات الكتابة! من قضلك");
