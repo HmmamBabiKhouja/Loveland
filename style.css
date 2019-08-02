@@ -2,13 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Changa", serif, Arial, Helvetica, sans-serif;
 }
 
 body {
   background: url(plush-design-compressor.jpg) no-repeat center center fixed;
   background-attachment: fixed;
   background-size: cover;
-  font-family: "Changa", serif, Arial, Helvetica, sans-serif;
   font-size: 16px;
   color: #f7f7f7;
 }
@@ -52,11 +52,12 @@ body {
 .form {
   width: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction:column; 
+  font-family: "Changa";
 }
 
-.form-text-input {
+.form-text{
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -64,20 +65,19 @@ body {
 
 .text-input {
   padding: 7px;
-  border: 1px solid #d6d9dc;
+  border: 1px solid transparent;
+  border-radius: 3px;
   outline: none;
+  font-size: 100%;
   width: 49%;
-}
-
-.form-btn,
-.result {
-  margin-top: 20px;
 }
 
 .form-btn {
   overflow: hidden;
   text-align: center;
   position: relative;
+  display: block;
+  margin-top: 20px;
 }
 
 .btn-input {
@@ -96,11 +96,12 @@ body {
   z-index: 1;
   position: absolute;
   font-size: 32%;
-  top: 26%;
-  right: 35%;
+  top: 20%;
+  right: 30%;
+  font-family: "Changa";
 }
 
-.result h3 {
+.result #meter {
   font-weight: 900;
   font-size: 130%;
   color: #d6d9dc;

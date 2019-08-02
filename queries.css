@@ -1,16 +1,27 @@
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 640px) {
   .description p {
     margin-bottom: 30px;
   }
 
+  .form-text{
+    width: 90%;
+    justify-content: space-between;
+  }
+
   .text-input {
     padding: 8px;
-    width: 35%;
+    width: 37%;
     }
 
   .form-btn {
+    transform:translate(0%,-68%); 
     margin-top: 30px;
   }
+
+  .result{
+    transform:translate(0%,-200%); 
+  }
+
 }
 
 /*================================================
