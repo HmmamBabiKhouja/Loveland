@@ -3,6 +3,10 @@
     margin-bottom: 100px;
   }
 
+  .container{
+    height: 95vh;
+  }
+
   .form-text{
     width: 90%;
     justify-content: space-between;
