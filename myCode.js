@@ -1,25 +1,3 @@
-let measure = (one, two) => {
-  // it's a made up result for my friends
-  // otherwise it'll return a random result 
-  
-  let num = 0;
-  if (
-    ((one === "عبد الرحمن" && two === "نور") || (one === "نور" && two === "عبد الرحمن"))
-    ||
-    ((one === "محمود" && two === "رنيم") || (one === "رنيم" && two === "محمود"))
-    ||
-    ((one === "fares" && two === "monika") || (one === "monika" && two === "fares"))
-    ||
-    ((one === "قمر" && two === "محمد") || (one === "محمد" && two === "قمر"))
-    ||
-    ((one === "هبة" && two === "اسامة") || (one === "اسامة" && two === "هبة"))
-  ) {
-    num = 100;
-  } else {
-    num = Math.floor(Math.random() * 50) + 50;
-  }
-  return num;
-};
 
 let measurmentShow = (measureNum) => {
   //will show a number on the result field each 0.05 of a second as it's measureing before the measureNum is passed into the result field 
@@ -40,11 +18,12 @@ let operate = () => {
   let two = document.querySelector("#two").value;
 
   if (one === "" || two === "") {
-    alert("املا البيانات في خانات الكتابة! من قضلك");
+    alert("please fill the input feilds first");
     return;
   }
   
-  let measureNum = measure(one,two);
+  let measureNum =Math.floor(Math.random() * 50) + 50;
+
   measurmentShow(measureNum);
 };
 
