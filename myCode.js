@@ -1,7 +1,6 @@
 let measure = (one, two) => {
   // it's a made up result for my friends
   // otherwise it'll return a random result 
-
   
   let num = 0;
   if (
