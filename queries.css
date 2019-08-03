@@ -12,6 +12,10 @@
     justify-content: space-between;
   }
 
+  .desc-p {
+    font-size: 110%;
+  }
+
   .text-input {
     padding: 8px;
     width: 37%;
