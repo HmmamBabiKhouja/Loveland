@@ -1,7 +1,14 @@
-@media only screen and (min-width: 640px) {
-  .description p {
-    margin-bottom: 100px;
+@media only screen and (min-width: 375px) {
+  .desc-p{
+    margin-bottom: 40px;
   }
+
+  .form-text{
+    margin-bottom: 15px;
+  }  
+}
+
+@media only screen and (min-width: 640px) {
 
   .container{
     height: 95vh;
@@ -12,7 +19,7 @@
   }
 
   .form-text{
-    width: 90%;
+    width: 95%;
     justify-content: space-between;
   }
 

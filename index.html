@@ -16,19 +16,19 @@
     <div class="content">
       <div class="description">
         <h1 class="desc-header">Love Land </h1>
-        <p class="desc-p">just imaging that you have a way to measure the love between two, just give the program the birds names and it will do the rest</p>
+        <p class="desc-p">imagine that you have a tool to measure the love between two, just give the program the birds names and it will do the rest</p>
       </div>
       <form class="form" autocomplete="off" onsubmit="return false;">
         <div class="form-text">
           <input class="text-input" id="one" type="text" name="" value="" placeholder="....." required>
           <input class="text-input" id="two" type="text" name="" value="" placeholder="....." required>
         </div>
-        <div class="form-btn">
-          <button class="btn-input" onclick="operate()">
-            <span class="form-btn-span">hit</span>
-            <ion-icon name="heart"></ion-icon>
-          </button>
-        </div>
+        <button class="btn-input" onclick="operate()">
+          <div class="btn-box">
+            <span class="btn-span">hit</span>
+            <img src="heart.svg" class="btn-heart" alt="heart svg picture">  
+          </div>
+        </button>
       </form>
       <div class="result">
         <h3 id="meter"> </h3>
