@@ -46,8 +46,7 @@ body {
 }
 
 .desc-p {
-  margin: 20px 10px 20px 0;
-  font-size: 90%;
+  margin: 20px 10px 40px 0;
 }
 
 .form {
@@ -62,6 +61,7 @@ body {
   width: 100%;
   display: flex;
   justify-content: space-around;
+  margin-bottom: 30px;
 }
 
 .text-input {

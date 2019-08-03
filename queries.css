@@ -7,6 +7,10 @@
     height: 95vh;
   }
 
+  .desc-p {
+    font-size: 110%;
+  }
+
   .form-text{
     width: 90%;
     justify-content: space-between;
