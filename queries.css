@@ -1,16 +1,13 @@
-@media only screen and (min-width: 375px) {
-  .desc-p{
-    margin-bottom: 40px;
-  }
+@media only screen and (min-width: 425px) {
 
-  .form-text{
-    margin-bottom: 15px;
-  }  
+  .btn-input,
+  .result-meter {
+    margin-top: 30px;
+  }
 }
 
-@media only screen and (min-width: 640px) {
-
-  .container{
+@media only screen and (min-width: 740px) {
+  .container {
     height: 95vh;
   }
 
@@ -18,7 +15,7 @@
     font-size: 110%;
   }
 
-  .form-text{
+  .form-text {
     width: 95%;
     justify-content: space-between;
   }
@@ -26,21 +23,16 @@
   .text-input {
     padding: 8px;
     width: 37%;
-    }
-
-  .form-btn {
-    transform:translate(0%,-68%); 
-    margin-top: 30px;
   }
 
-  .result{
-    transform:translate(0%,-200%); 
+  .btn-input,
+  .result-meter {
+    transform: translate(0,-130%);
+    margin: 20px;
   }
 
-}
-
-/*================================================
-==================================================*/
-
-@media only screen and (min-width: 1024px) {
+  .result-meter {
+    margin-top: 60px;
+    font-size: 250%;
+  } 
 }

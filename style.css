@@ -5,17 +5,21 @@
   font-family: "Changa", serif, Arial, Helvetica, sans-serif;
 }
 
+html, body, .container {
+    min-height: 100%;
+    height: 100%;
+}
+
 body {
-  background: url(plush-design-compressor.jpg) no-repeat center center fixed;
-  overflow: hidden;
+  background: url(plush-design-compressor.jpg);
   background-size: cover;
+  background-position: center;
   font-size: 14px;
   color: #f7f7f7;
 }
 
 .container {
   width: 100%;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,7 +28,7 @@ body {
 
 .content {
   width: 90%;
-  height: 90vh;
+  height: 90%;
   border: 1px solid transparent;
   background: rgba(0, 0, 0, 0.6);
   border-radius: 4px;
@@ -40,8 +44,12 @@ body {
   align-items: center;
 }
 
-.desc-p {
-  margin: 20px 0;
+.desc-header,
+.desc-p,
+.form-text,
+.btn-input,
+.result-meter {
+  margin-top: 20px ;
 }
 
 .form {
@@ -50,13 +58,13 @@ body {
   align-items: center;
   flex-direction: column;
   font-family: "Changa";
+  overflow: hidden;
 }
 
 .form-text {
   width: 100%;
   display: flex;
   justify-content: space-around;
-  margin-bottom: 15px;
 }
 
 .text-input {
@@ -68,46 +76,22 @@ body {
   width: 48%;
 }
 
-/*********************************
-**********************************/
-
 .btn-input {
   cursor: pointer;
-  border: 0 solid transparent;
-  background: transparent;
-  color: transparent;
-  outline: none;
-
-}
-
-.btn-box{
-  text-align: center;
-  display: block;
-}
-
-.btn-heart {
-  width: 20%;
-  height: auto;
-
-  z-index: 0;
-  position: absolute;
-}
-
-.btn-span {
-  font-size: 250%;
+  border: 1px solid transparent;
+  background: #ff6565;
   color: #fff;
-  z-index: 1;
-  font-family: "Changa";
-  position: absolute;
+  outline: none;
+  border-radius: 6px;
+  padding: 0 20px;
 }
 
-/*********************************
-**********************************/
+.btn-input-span{
+  font-size: 200%;
+}
 
-.result #meter {
+.result-meter {
   font-weight: 900;
-  font-size: 130%;
-  color: #d6d9dc;
+  font-size: 200%;
+  color: #dadada;
 }
-
-/* check the riple effect on the ionicon */
