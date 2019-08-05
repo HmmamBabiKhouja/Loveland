@@ -5,9 +5,11 @@
   font-family: "Changa", serif, Arial, Helvetica, sans-serif;
 }
 
-html, body, .container {
-    min-height: 100%;
-    height: 100%;
+html,
+body,
+.container {
+  height: 100%;
+  min-height: 100%;
 }
 
 body {
@@ -19,28 +21,25 @@ body {
 }
 
 .container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  position: relative;
 }
 
 .content {
+  overflow: auto;
   width: 90%;
+  left: 5%;
+  height: 84%;
+  top: 8%;
+  position: absolute;
   border: 1px solid transparent;
   background: rgba(0, 0, 0, 0.6);
   border-radius: 4px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
 }
 
 .description {
   width: 95%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin: auto;
 }
 
 .desc-header,
@@ -48,31 +47,21 @@ body {
 .form-text,
 .btn-input,
 .result-meter {
-  margin-top: 20px ;
+  margin-top: 20px;
 }
 
 .form {
   width: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
   font-family: "Changa";
   overflow: hidden;
-}
-
-.form-text {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
 }
 
 .text-input {
   padding: 7px;
   border: 1px solid transparent;
-  border-radius: 3px;
+  border-radius: 4px;
   outline: none;
-  font-size: 100%;
-  width: 48%;
+  width: 47%;
 }
 
 .btn-input {
@@ -85,12 +74,15 @@ body {
   padding: 0 20px;
 }
 
-.btn-input-span{
-  font-size: 200%;
+.btn-input-span {
+  font-size: 180%;
 }
 
+.heart {
+  font-size: 85%;
+}
 .result-meter {
   font-weight: 900;
   font-size: 200%;
-  color: #dadada;
+  color: #f1f1f1;
 }
