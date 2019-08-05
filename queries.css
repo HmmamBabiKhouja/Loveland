@@ -1,41 +1,4 @@
-@media only screen and (min-width: 425px) {
-
-  .btn-input,
-  .result-meter {
-    margin-top: 30px;
-  }
-}
-
-@media only screen and (min-width: 740px) {
-  .container {
-    height: 95vh;
-  }
-
-  .desc-p {
-    font-size: 110%;
-  }
-
-  .form-text {
-    width: 95%;
-    justify-content: space-between;
-  }
-
-  .text-input {
-    padding: 8px;
-    width: 37%;
-  }
-
-  .btn-input,
-  .result-meter {
-    transform: translate(0,-130%);
-    margin: 20px;
-  }
-
-  .result-meter {
-    margin-top: 60px;
-    font-size: 250%;
-  } 
-}@media only screen and (min-width: 426px) {
+@media only screen and (min-width: 426px) {
   .desc-header,
   .desc-p,
   .form-text,
